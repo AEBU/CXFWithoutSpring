@@ -1,0 +1,62 @@
+ext {
+    slf4jVersion = '1.7.25'
+
+
+    misc = [
+            slf4j       	: "org.slf4j:slf4j-log4j12:$slf4jVersion",
+            log4j			: "log4j:log4j:1.2.17",
+            //jms            	: "javax.jms:javax.jms-api:$jmsVersion",
+    ]
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+group 'uce.edu.bautista'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+
+//Copiar las dependencias al directorio /libs
+task copyDependencies(type: Copy) {
+    delete 'libs'
+    from configurations.compile
+    into 'libs'
+}
+
+copyDependencies.group = "Custom"
+
+
+dependencies {
+    compile misc.slf4j
+    compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http-jetty', version: '3.1.10'
+    compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxrs', version: '3.1.10'
+    compile group: 'com.sun.jersey', name: 'jersey-server', version: '1.8'
+
+
+}
+
+war {
+    archiveName = 'bautista_01_Distribuida'
+    manifest {
+        attributes("Created-By"      : "Alexis Bautista",
+                "Specification-Title": "Programacion Distribuida",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+
+//	webXml = file('src/main/java/web.xml')
+    /*
+    *Preguntas
+    *   Para que creamos con webMVC si este solo expone los sevicios
+    * */
+}

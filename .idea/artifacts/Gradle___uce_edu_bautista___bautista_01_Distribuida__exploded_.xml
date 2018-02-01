@@ -1,0 +1,46 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : uce.edu.bautista : bautista_01_Distribuida (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/bautista_01_Distribuida</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpTcGVjaWZpY2F0aW9uLVRpdGxlOiBQcm9ncmFtYWNpb24gRGlzdHJpYnVpZGENCkNsYXNzLVBhdGg6IHNsZjRqLWxvZzRqMTItMS43LjI1LmphciBjeGYtcnQtdHJhbnNwb3J0cy1odHRwLWpldHR5LTMuMS4NCiAxMC5qYXIgY3hmLXJ0LWZyb250ZW5kLWpheHJzLTMuMS4xMC5qYXIgamVyc2V5LXNlcnZlci0xLjguamFyIHNsZjRqLWENCiBwaS0xLjcuMjUuamFyIGxvZzRqLTEuMi4xNy5qYXIgY3hmLWNvcmUtMy4xLjEwLmphciBjeGYtcnQtdHJhbnNwb3J0cy0NCiBodHRwLTMuMS4xMC5qYXIgamV0dHktc2VydmVyLTkuMi4xNS52MjAxNjAyMTAuamFyIGpldHR5LXV0aWwtOS4yLjE1LnYNCiAyMDE2MDIxMC5qYXIgamV0dHktaW8tOS4yLjE1LnYyMDE2MDIxMC5qYXIgamV0dHktc2VjdXJpdHktOS4yLjE1LnYyMDENCiA2MDIxMC5qYXIgamV0dHktY29udGludWF0aW9uLTkuMi4xNS52MjAxNjAyMTAuamFyIGpldHR5LWh0dHAtOS4yLjE1LnYNCiAyMDE2MDIxMC5qYXIgamF2YXgud3MucnMtYXBpLTIuMC4xLmphciBqYXZheC5hbm5vdGF0aW9uLWFwaS0xLjIuamFyIGENCiBzbS0zLjEuamFyIGplcnNleS1jb3JlLTEuOC5qYXIgd29vZHN0b3gtY29yZS1hc2wtNC40LjEuamFyIHhtbHNjaGVtYS0NCiBjb3JlLTIuMi4xLmphciBqYXZheC5zZXJ2bGV0LWFwaS0zLjEuMC5qYXIgc3RheDItYXBpLTMuMS40Lmphcg0KQ3JlYXRlZC1CeTogQWxleGlzIEJhdXRpc3RhDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/bautista_01_Distribuida/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cxf-cli_main/web/Web Gradle : bautista_01_Distribuida" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cxf-cli_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-log4j12:1.7.25" />
+          <element id="library" level="project" name="Gradle: org.apache.cxf:cxf-rt-transports-http-jetty:3.1.10" />
+          <element id="library" level="project" name="Gradle: org.apache.cxf:cxf-rt-frontend-jaxrs:3.1.10" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Gradle: org.apache.cxf:cxf-core:3.1.10" />
+          <element id="library" level="project" name="Gradle: org.apache.cxf:cxf-rt-transports-http:3.1.10" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-server:9.2.15.v20160210" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-util:9.2.15.v20160210" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-io:9.2.15.v20160210" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-security:9.2.15.v20160210" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-continuation:9.2.15.v20160210" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-http:9.2.15.v20160210" />
+          <element id="library" level="project" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1" />
+          <element id="library" level="project" name="Gradle: javax.annotation:javax.annotation-api:1.2" />
+          <element id="library" level="project" name="Gradle: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
+          <element id="library" level="project" name="Gradle: org.apache.ws.xmlschema:xmlschema-core:2.2.1" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.8/6da1231f5e2d7a9f7d194e292fc3695ba7710b2f/jersey-server-1.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/asm/asm/3.1/c157def142714c544bdea2e6144645702adf7097/asm-3.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.8/b6a0553c0eb3da45a9b8947a0a7283b3b9266d0d/jersey-core-1.8.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

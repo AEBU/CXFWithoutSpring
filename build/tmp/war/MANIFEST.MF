@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Specification-Title: Programacion Distribuida
+Class-Path: slf4j-log4j12-1.7.25.jar cxf-rt-transports-http-jetty-3.1.
+ 10.jar cxf-rt-frontend-jaxrs-3.1.10.jar jersey-server-1.8.jar slf4j-a
+ pi-1.7.25.jar log4j-1.2.17.jar cxf-core-3.1.10.jar cxf-rt-transports-
+ http-3.1.10.jar jetty-server-9.2.15.v20160210.jar jetty-util-9.2.15.v
+ 20160210.jar jetty-io-9.2.15.v20160210.jar jetty-security-9.2.15.v201
+ 60210.jar jetty-continuation-9.2.15.v20160210.jar jetty-http-9.2.15.v
+ 20160210.jar javax.ws.rs-api-2.0.1.jar javax.annotation-api-1.2.jar a
+ sm-3.1.jar jersey-core-1.8.jar woodstox-core-asl-4.4.1.jar xmlschema-
+ core-2.2.1.jar javax.servlet-api-3.1.0.jar stax2-api-3.1.4.jar
+Created-By: Alexis Bautista
+

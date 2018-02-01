@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : uce.edu.bautista : bautista_01_Distribuida">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="bautista_01_Distribuida">
+      <element id="artifact" artifact-name="Gradle : uce.edu.bautista : bautista_01_Distribuida (exploded)" />
+    </root>
+  </artifact>
+</component>
