@@ -14,7 +14,7 @@ public class Server {
         sf.setResourceClasses(HolaService.class);
         sf.setResourceProvider(HolaService.class,
                 new SingletonResourceProvider(new HolaService()));
-        sf.setAddress("http://localhost:9090/");
+        sf.setAddress("http://localhost:4040/");
 
         sf.create();
     }

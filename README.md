@@ -22,3 +22,13 @@ http://javajeedevelopment.blogspot.com/2014/07/restful-services-using-apache-cxf
    
 Config without Servlet
 https://memorynotfound.com/configure-jersey-with-annotations-only/
+
+
+
+Without Spring and xml
+http://buraktas.com/resteasy-example-without-using-a-web-xml/
+
+
+-   JAXRSServerFactoryBean creas un servidor dentro de CXF, que comienza a escuchar solicitudes dentro de la URL especificada
+    -   Definimos el ciclo de vida de las clases 
+    -   http://cxf.apache.org/docs/jaxrs-services-configuration.html
