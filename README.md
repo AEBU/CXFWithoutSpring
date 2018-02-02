@@ -32,3 +32,13 @@ http://buraktas.com/resteasy-example-without-using-a-web-xml/
 -   JAXRSServerFactoryBean creas un servidor dentro de CXF, que comienza a escuchar solicitudes dentro de la URL especificada
     -   Definimos el ciclo de vida de las clases 
     -   http://cxf.apache.org/docs/jaxrs-services-configuration.html
+
+https://memorynotfound.com/configure-jersey-with-annotations-only/
+
+
+-   Pregunta 1
+
+    ¿cómo puedo decirle al servidor de aplicaciones que use Jersey como implementación para la especificación JAX-RS?
+
+
+http://takeip.com/how-to-use-jersey-as-jax-rs-implementation-without-web-xml.html

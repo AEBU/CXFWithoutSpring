@@ -7,6 +7,11 @@ ext {
             log4j			: "log4j:log4j:1.2.17",
             //jms            	: "javax.jms:javax.jms-api:$jmsVersion",
     ]
+    web =[
+
+            servlet      : "javax.servlet:javax.servlet-api:3.1.0"
+
+    ]
 }
 
 tasks.withType(JavaCompile) {
@@ -39,15 +44,17 @@ copyDependencies.group = "Custom"
 
 dependencies {
     compile misc.slf4j
-    compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http-jetty', version: '3.1.10'
-    compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxrs', version: '3.1.10'
-    //compile group: 'com.sun.jersey', name: 'jersey-server', version: '1.8'
+    compile web.servlet
 
-    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: '2.26'
-// https://mvnrepository.com/artifact/com.sun.jersey.contribs/jersey-multipart
-   // compile group: 'com.sun.jersey.contribs', name: 'jersey-multipart', version: '1.19.4'
-// https://mvnrepository.com/artifact/org.glassfish.jersey.media/jersey-media-json-jackson
-    compile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.26'
+//    compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http-jetty', version: '3.1.10'
+    compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxrs', version: '2.0'
+    //compile group: 'com.sun.jersey', name: 'jersey-server', version: '1.8'
+    compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http', version: '2.0'
+//    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: '2.26'
+    compile group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.0'
+    // compile group: 'com.sun.jersey.contribs', name: 'jersey-multipart', version: '1.19.4'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
+
 
 }
 
@@ -55,8 +62,7 @@ war {
     archiveName = 'bautista_01_Distribuida'
     manifest {
         attributes("Created-By"      : "Alexis Bautista",
-                "Specification-Title": "Programacion Distribuida",
-                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+                "Specification-Title": "Programacion Distribuida")
     }
 
 //	webXml = file('src/main/java/web.xml')

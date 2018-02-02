@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/build/libs/exploded/bautista_01_Distribuida</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$">
-        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpTcGVjaWZpY2F0aW9uLVRpdGxlOiBQcm9ncmFtYWNpb24gRGlzdHJpYnVpZGENCkNsYXNzLVBhdGg6IHNsZjRqLWxvZzRqMTItMS43LjI1LmphciBjeGYtcnQtdHJhbnNwb3J0cy1odHRwLWpldHR5LTMuMS4NCiAxMC5qYXIgY3hmLXJ0LWZyb250ZW5kLWpheHJzLTMuMS4xMC5qYXIgamVyc2V5LWNvbnRhaW5lci1zZXJ2bGV0LWNvcmUNCiAtMi4yNi5qYXIgamVyc2V5LW1lZGlhLWpzb24tamFja3Nvbi0yLjI2LmphciBzbGY0ai1hcGktMS43LjI1LmphciBsb2cNCiA0ai0xLjIuMTcuamFyIGN4Zi1jb3JlLTMuMS4xMC5qYXIgY3hmLXJ0LXRyYW5zcG9ydHMtaHR0cC0zLjEuMTAuamFyIGoNCiBldHR5LXNlcnZlci05LjIuMTUudjIwMTYwMjEwLmphciBqZXR0eS11dGlsLTkuMi4xNS52MjAxNjAyMTAuamFyIGpldHQNCiB5LWlvLTkuMi4xNS52MjAxNjAyMTAuamFyIGpldHR5LXNlY3VyaXR5LTkuMi4xNS52MjAxNjAyMTAuamFyIGpldHR5LWMNCiBvbnRpbnVhdGlvbi05LjIuMTUudjIwMTYwMjEwLmphciBqZXR0eS1odHRwLTkuMi4xNS52MjAxNjAyMTAuamFyIGphdmENCiB4LmFubm90YXRpb24tYXBpLTEuMi5qYXIgamF2YXguaW5qZWN0LTIuNS4wLWI0Mi5qYXIgamVyc2V5LWNvbW1vbi0yLjINCiA2LmphciBqZXJzZXktc2VydmVyLTIuMjYuamFyIGplcnNleS1lbnRpdHktZmlsdGVyaW5nLTIuMjYuamFyIGphY2tzb24NCiAtYW5ub3RhdGlvbnMtMi44LjQuamFyIGphY2tzb24tZGF0YWJpbmQtMi44LjQuamFyIGphY2tzb24tbW9kdWxlLWpheGINCiAtYW5ub3RhdGlvbnMtMi44LjQuamFyIHdvb2RzdG94LWNvcmUtYXNsLTQuNC4xLmphciB4bWxzY2hlbWEtY29yZS0yLjINCiAuMS5qYXIgamF2YXguc2VydmxldC1hcGktMy4xLjAuamFyIG9zZ2ktcmVzb3VyY2UtbG9jYXRvci0xLjAuMS5qYXIgamUNCiByc2V5LWNsaWVudC0yLjI2LmphciBqZXJzZXktbWVkaWEtamF4Yi0yLjI2LmphciB2YWxpZGF0aW9uLWFwaS0xLjEuMC4NCiBGaW5hbC5qYXIgamFja3Nvbi1jb3JlLTIuOC40LmphciBzdGF4Mi1hcGktMy4xLjQuamFyIGphdmF4LndzLnJzLWFwaS0NCiAyLjEuamFyDQpDcmVhdGVkLUJ5OiBBbGV4aXMgQmF1dGlzdGENCg0K</manifest>
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpTcGVjaWZpY2F0aW9uLVRpdGxlOiBQcm9ncmFtYWNpb24gRGlzdHJpYnVpZGENCkNyZWF0ZWQtQnk6IEFsZXhpcyBCYXV0aXN0YQ0KDQo=</manifest>
       </options>
     </properties>
     <root id="root">
@@ -15,41 +15,6 @@
         <element id="directory" name="classes">
           <element id="module-output" name="cxf-cli_main" />
           <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
-        </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-log4j12:1.7.25" />
-          <element id="library" level="project" name="Gradle: org.apache.cxf:cxf-rt-transports-http-jetty:3.1.10" />
-          <element id="library" level="project" name="Gradle: org.apache.cxf:cxf-rt-frontend-jaxrs:3.1.10" />
-          <element id="library" level="project" name="Gradle: org.glassfish.jersey.containers:jersey-container-servlet-core:2.26" />
-          <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-json-jackson:2.26" />
-          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
-          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
-          <element id="library" level="project" name="Gradle: org.apache.cxf:cxf-core:3.1.10" />
-          <element id="library" level="project" name="Gradle: org.apache.cxf:cxf-rt-transports-http:3.1.10" />
-          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-server:9.2.15.v20160210" />
-          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-util:9.2.15.v20160210" />
-          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-io:9.2.15.v20160210" />
-          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-security:9.2.15.v20160210" />
-          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-continuation:9.2.15.v20160210" />
-          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-http:9.2.15.v20160210" />
-          <element id="library" level="project" name="Gradle: javax.annotation:javax.annotation-api:1.2" />
-          <element id="library" level="project" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b42" />
-          <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-common:2.26" />
-          <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-server:2.26" />
-          <element id="library" level="project" name="Gradle: org.glassfish.jersey.ext:jersey-entity-filtering:2.26" />
-          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.4" />
-          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.4" />
-          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.4" />
-          <element id="library" level="project" name="Gradle: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
-          <element id="library" level="project" name="Gradle: org.apache.ws.xmlschema:xmlschema-core:2.2.1" />
-          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
-          <element id="library" level="project" name="Gradle: org.glassfish.hk2:osgi-resource-locator:1.0.1" />
-          <element id="library" level="project" name="Gradle: org.glassfish.jersey.core:jersey-client:2.26" />
-          <element id="library" level="project" name="Gradle: org.glassfish.jersey.media:jersey-media-jaxb:2.26" />
-          <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.1.0.Final" />
-          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.4" />
-          <element id="library" level="project" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" />
-          <element id="library" level="project" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.1" />
         </element>
       </element>
     </root>

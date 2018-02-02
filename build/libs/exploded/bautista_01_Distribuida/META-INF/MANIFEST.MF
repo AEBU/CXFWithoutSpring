@@ -1,20 +1,4 @@
 Manifest-Version: 1.0
 Specification-Title: Programacion Distribuida
-Class-Path: slf4j-log4j12-1.7.25.jar cxf-rt-transports-http-jetty-3.1.
- 10.jar cxf-rt-frontend-jaxrs-3.1.10.jar jersey-server-1.8.jar jersey-
- container-servlet-core-2.26.jar jersey-multipart-1.19.4.jar jersey-me
- dia-json-jackson-2.26.jar slf4j-api-1.7.25.jar log4j-1.2.17.jar cxf-c
- ore-3.1.10.jar cxf-rt-transports-http-3.1.10.jar jetty-server-9.2.15.
- v20160210.jar jetty-util-9.2.15.v20160210.jar jetty-io-9.2.15.v201602
- 10.jar jetty-security-9.2.15.v20160210.jar jetty-continuation-9.2.15.
- v20160210.jar jetty-http-9.2.15.v20160210.jar javax.annotation-api-1.
- 2.jar asm-3.1.jar javax.inject-2.5.0-b42.jar jersey-common-2.26.jar j
- ersey-server-2.26.jar mimepull-1.9.3.jar jersey-entity-filtering-2.26
- .jar jackson-annotations-2.8.4.jar jackson-databind-2.8.4.jar jackson
- -module-jaxb-annotations-2.8.4.jar woodstox-core-asl-4.4.1.jar xmlsch
- ema-core-2.2.1.jar javax.servlet-api-3.1.0.jar osgi-resource-locator-
- 1.0.1.jar jersey-client-2.26.jar jersey-media-jaxb-2.26.jar validatio
- n-api-1.1.0.Final.jar jackson-core-2.8.4.jar stax2-api-3.1.4.jar java
- x.ws.rs-api-2.1.jar jersey-core-1.19.4.jar jsr311-api-1.1.1.jar
 Created-By: Alexis Bautista
 
